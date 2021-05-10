@@ -7,7 +7,7 @@
 年轻代使用 **mark-copy(标记-复制)** 算法，老年代使用 **mark-sweep-compact(标记-清除-整理)** 算法。  
 适合单核CPU，JVM堆内存较小时使用。  
 GC log示例:  
-![serialGC][serialGCImg]  
+![serialGC][https://github.com/SaturnStroller/java_course_202104/blob/main/01jvm/Serial_GC_log.png]  
 其中，Allocation Failure表示触发GC的原因是对象内存分配失败，年轻代没有足够空间存放新对象。  
 Times部分中user表示GC线程消耗的时间，sys表示系统调用和系统等待事件消耗的时间，real表示应用暂停的时间。real=user+sys  
 例如第一次GC，年轻代空间从279M到了34M，而整个堆内存从279M到了88M，说明年轻代有大约54M的数据转移到了老年代  
@@ -20,7 +20,7 @@ Times部分中user表示GC线程消耗的时间，sys表示系统调用和系统
 并行GC，GC期间，可以多线程并发清理垃圾，所以暂停时间更短，年轻代和老年代的GC都会触发STW。  
 年轻代使用 **mark-copy(标记-复制)** 算法，老年代使用 **mark-sweep-compact(标记-清除-整理)** 算法。  
 GC log示例:  
-![parallelGC][parallelGCImg]  
+![parallelGC][https://github.com/SaturnStroller/java_course_202104/blob/main/01jvm/Parallel_GC_log.png]  
 其中，年轻代GC的Times部分，real≈(user+sys)/GC线程数。可以发现STW时间相对串行GC大幅缩短了。  
 日志最后发生了一次Full GC，Ergonomics表示触发GC的原因是JVM内部环境认为此时可以进行GC。从时间看出老年代的GC也是并行处理的，另外年轻代被清空  
 ##### 3、CMS GC
@@ -54,7 +54,7 @@ CMS GC的几个阶段：
 重置CMS算法相关的内部数据，为下一次GC循环做准备  
 
 GC log示例:  
-![CMSGC][CMSGCImg]  
+![CMSGC][https://github.com/SaturnStroller/java_course_202104/blob/main/01jvm/CMS_GC_log.png]  
 ##### 4、G1 GC  
 ```
 //启动参数
@@ -85,5 +85,6 @@ G1 GC的并发标记阶段与CMS基本一致，G1的并发标记通过Snapshot-A
 触发STW，最后这个清理阶段为即将到来的转移阶段做准备，统计小堆块中所有存活的对象，并将小堆块进行排序，以提升GC的效率。此阶段也为下一次标记执行必需的所有整理工作(house-keeping activities)：维护并发标记的内部状态。所有不包含存活对象的小堆块在此阶段都被回收了。有一部分任务是并发的：例如空堆区的回收，还有大部分的存活率计算。  
  - 阶段3：混合模式转移暂停（Evacuation Pause - mixed）  
 清理年轻代和老年代。混合模式的转移暂停不一定紧跟并发标记阶段。有很多规则和历史数据会影响混合模式的启动时机。比如，假若在老年代中可以并发地腾出很多的小堆块，就没有必要启动混合模式。因此，在并发标记与混合转移暂停之间，很可能会存在多次young模式的转移暂停  
+
 GC log示例:  
-![G1GC][G1GCImg]
+![G1GC][https://github.com/SaturnStroller/java_course_202104/blob/main/01jvm/G1_GC_log.png]
