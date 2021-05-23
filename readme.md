@@ -15,4 +15,8 @@
 
 #### 02nio 
 
-- 第二周作业	第6题（okhttp请求）	[HttpClientTest.java](https://github.com/SaturnStroller/java_course_202104/blob/main/course_202104/src/main/java/saturnStroller/geekTime/course_202104/nio/HttpClientTest.java)
+- 第二周作业	第6题（okhttp请求）	[HttpClientTest.java](https://github.com/SaturnStroller/java_course_202104/blob/main/01jvm/course_202104/src/main/java/saturnStroller/geekTime/course_202104/nio/HttpClientTest.java)
+
+- 第三周作业	第1题（整合httpClient请求）	[HttpOutboundHandler.java](https://github.com/SaturnStroller/java_course_202104/blob/main/02nio/nettygateway/src/main/java/saturnstroller/geektime/nettygateway/outbound/httpClient/HttpOutboundHandler.java)
+- 第三周作业	第3题（过滤器验签）	[HeaderHttpRequestFilter.java](https://github.com/SaturnStroller/java_course_202104/blob/main/02nio/nettygateway/src/main/java/saturnstroller/geektime/nettygateway/filter/HeaderHttpRequestFilter.java)
+- 第三周作业	第4题（路由）	[RoundRibbonHttpEndpointRouter.java](https://github.com/SaturnStroller/java_course_202104/blob/main/02nio/nettygateway/src/main/java/saturnstroller/geektime/nettygateway/router/RoundRibbonHttpEndpointRouter.java)
