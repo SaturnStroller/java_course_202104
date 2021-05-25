@@ -20,3 +20,8 @@
 - 第三周作业	第1题（整合httpClient请求）	[HttpOutboundHandler.java](https://github.com/SaturnStroller/java_course_202104/blob/main/02nio/nettygateway/src/main/java/saturnstroller/geektime/nettygateway/outbound/httpClient/HttpOutboundHandler.java)
 - 第三周作业	第3题（过滤器验签）	[HeaderHttpRequestFilter.java](https://github.com/SaturnStroller/java_course_202104/blob/main/02nio/nettygateway/src/main/java/saturnstroller/geektime/nettygateway/filter/HeaderHttpRequestFilter.java)
 - 第三周作业	第4题（路由）	[RoundRibbonHttpEndpointRouter.java](https://github.com/SaturnStroller/java_course_202104/blob/main/02nio/nettygateway/src/main/java/saturnstroller/geektime/nettygateway/router/RoundRibbonHttpEndpointRouter.java)
+
+#### 03concurrency
+
+- 第四周作业	第2题（主线程等待子线程执行结束）	[blockmain](https://github.com/SaturnStroller/java_course_202104/blob/main/03concurrency/threadpactice/src/main/java/saturnstroller/geektime/threadpractice/blockmain)
+
