@@ -24,4 +24,4 @@
 #### 03concurrency
 
 - 第四周作业	第2题（主线程等待子线程执行结束）	[blockmain](https://github.com/SaturnStroller/java_course_202104/blob/main/03concurrency/threadpactice/src/main/java/saturnstroller/geektime/threadpractice/blockmain)
-- 第四周作业	第6题（多线程知识点脑图）	[concurrency](https://github.com/SaturnStroller/java_course_202104/blob/main/03concurrency/concurrency.km)
+- 第四周作业	第6题（多线程知识点脑图）	[concurrency](https://github.com/SaturnStroller/java_course_202104/blob/main/03concurrency/concurrency.png)
