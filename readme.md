@@ -25,3 +25,11 @@
 
 - 第四周作业	第2题（主线程等待子线程执行结束）	[blockmain](https://github.com/SaturnStroller/java_course_202104/blob/main/03concurrency/threadpactice/src/main/java/saturnstroller/geektime/threadpractice/blockmain)
 - 第四周作业	第6题（多线程知识点脑图）	[concurrency](https://github.com/SaturnStroller/java_course_202104/blob/main/03concurrency/concurrency.png)
+
+#### 04fx
+
+- 第五周作业	第2题（Bean装配）	[Main.java](https://github.com/SaturnStroller/java_course_202104/blob/main/04fx/frame-practice/src/main/java/saturnstroller/geektime/frame/_Main.java)
+- 第五周作业	第8题（Starter）	[starter](https://github.com/SaturnStroller/java_course_202104/blob/main/04fx/starterdemo/src/main/java/saturnstroller/geektime/starterdemo/SaturnStrollerAutoConfiguration.java)
+
+
+
