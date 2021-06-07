@@ -30,6 +30,6 @@
 
 - 第五周作业	第2题（Bean装配）	[Main.java](https://github.com/SaturnStroller/java_course_202104/blob/main/04fx/frame-practice/src/main/java/saturnstroller/geektime/frame/_Main.java)
 - 第五周作业	第8题（Starter）	[starter](https://github.com/SaturnStroller/java_course_202104/blob/main/04fx/starterdemo/src/main/java/saturnstroller/geektime/starterdemo/SaturnStrollerAutoConfiguration.java)
-
+- 第五周作业	第10题（连接数据库）	[jdbc](https://github.com/SaturnStroller/java_course_202104/blob/main/04fx/jdbcdemo/src/main/java/saturnstroller/geektime/jdbcdemo/dao)
 
 
