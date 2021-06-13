@@ -35,3 +35,10 @@
 #### 05db
 
 - 第六周作业	第6题（电商场景建表）	[mall.sql](https://github.com/SaturnStroller/java_course_202104/blob/main/05db/mall.sql)
+
+
+- 第七周作业	第2题（插入100万订单数据）	[insert](https://github.com/SaturnStroller/java_course_202104/blob/main/04fx/jdbcdemo/src/main/java/saturnstroller/geektime/jdbcdemo/batch)
+
+
+
+
