@@ -32,4 +32,6 @@
 - 第五周作业	第8题（Starter）	[starter](https://github.com/SaturnStroller/java_course_202104/blob/main/04fx/starterdemo/src/main/java/saturnstroller/geektime/starterdemo/SaturnStrollerAutoConfiguration.java)
 - 第五周作业	第10题（连接数据库）	[jdbc](https://github.com/SaturnStroller/java_course_202104/blob/main/04fx/jdbcdemo/src/main/java/saturnstroller/geektime/jdbcdemo/dao)
 
+#### 05db
 
+- 第六周作业	第6题（电商场景建表）	[mall.sql](https://github.com/SaturnStroller/java_course_202104/blob/main/05db/mall.sql)
