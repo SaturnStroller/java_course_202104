@@ -7,6 +7,7 @@ import java.util.Map;
 
 /**
  * @Description  动态数据源配置
+ * 关键就是继承了AbstractRoutingDataSource
  * @Author SaturnStroller
  */
 public class DynamicDataSource extends AbstractRoutingDataSource {
