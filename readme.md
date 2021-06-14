@@ -40,6 +40,6 @@
 - 第七周作业	第2题（插入100万订单数据）	[insert](https://github.com/SaturnStroller/java_course_202104/blob/main/04fx/jdbcdemo/src/main/java/saturnstroller/geektime/jdbcdemo/batch)
 - 第七周作业	第9题（基于AbstractRoutingDataSource的多数据源配置读写分离）	[多数据源配置](https://github.com/SaturnStroller/java_course_202104/blob/main/05db/datasourcedemo/src/main/java/saturnstroller/geektime/datasourcedemo/config)
 [aop切面配置](https://github.com/SaturnStroller/java_course_202104/blob/main/05db/datasourcedemo/src/main/java/saturnstroller/geektime/datasourcedemo/aop/DataSourceAop.java)
-
+- 第七周作业	第10题（基于ShardingSphere的多数据源配置读写分离）	[多数据源配置](https://github.com/SaturnStroller/java_course_202104/blob/main/05db/datasourcedemo/src/main/java/saturnstroller/geektime/datasourcedemo/config) [同一个事务内写后读](https://github.com/SaturnStroller/java_course_202104/blob/main/05db/datasourcedemo/src/main/java/saturnstroller/geektime/datasourcedemo/config)
 
 
