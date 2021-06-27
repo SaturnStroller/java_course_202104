@@ -42,4 +42,4 @@
 [aop切面配置](https://github.com/SaturnStroller/java_course_202104/blob/main/05db/datasourcedemo/src/main/java/saturnstroller/geektime/datasourcedemo/aop/DataSourceAop.java)
 - 第七周作业	第10题（基于ShardingSphere的多数据源配置读写分离）	[多数据源配置](https://github.com/SaturnStroller/java_course_202104/blob/main/05db/shardingspheredemo/src/main/resources/application.properties) [同一个事务内写后读](https://github.com/SaturnStroller/java_course_202104/blob/main/05db/shardingspheredemo/src/main/java/saturnstroller/geektime/shardingspheredemo/dao/HikariDao.java)
 
-
+- 第八周作业	第2题（水平分库分表）	[shardingProxy](https://github.com/SaturnStroller/java_course_202104/blob/main/05db/shardingProxyDemo)
