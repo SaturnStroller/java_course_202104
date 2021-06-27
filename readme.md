@@ -43,3 +43,7 @@
 - 第七周作业	第10题（基于ShardingSphere的多数据源配置读写分离）	[多数据源配置](https://github.com/SaturnStroller/java_course_202104/blob/main/05db/shardingspheredemo/src/main/resources/application.properties) [同一个事务内写后读](https://github.com/SaturnStroller/java_course_202104/blob/main/05db/shardingspheredemo/src/main/java/saturnstroller/geektime/shardingspheredemo/dao/HikariDao.java)
 
 - 第八周作业	第2题（水平分库分表）	[shardingProxy](https://github.com/SaturnStroller/java_course_202104/blob/main/05db/shardingProxyDemo)
+- 第八周作业	第6题（hmily tcc）	[tcc-订单](https://github.com/SaturnStroller/java_course_202104/blob/main/05db/hmily-demo/hmily-demo-tcc/hmily-demo-tcc-springcloud/hmily-demo-tcc-springcloud-order/src/main/java/org/dromara/hmily/demo/springcloud/order/service/impl/PaymentServiceImpl.java)
+[tcc-账户](https://github.com/SaturnStroller/java_course_202104/blob/main/05db/hmily-demo/hmily-demo-tcc/hmily-demo-tcc-springcloud/hmily-demo-tcc-springcloud-account/src/main/java/org/dromara/hmily/demo/springcloud/account/service/impl/AccountServiceImpl.java)
+[tcc-库存](https://github.com/SaturnStroller/java_course_202104/blob/main/05db/hmily-demo/hmily-demo-tcc/hmily-demo-tcc-springcloud/hmily-demo-tcc-springcloud-inventory/src/main/java/org/dromara/hmily/demo/springcloud/inventory/service/impl/InventoryServiceImpl.java)
+
