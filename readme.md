@@ -48,5 +48,5 @@
 [tcc-库存](https://github.com/SaturnStroller/java_course_202104/blob/main/05db/hmily-demo/hmily-demo-tcc/hmily-demo-tcc-springcloud/hmily-demo-tcc-springcloud-inventory/src/main/java/org/dromara/hmily/demo/springcloud/inventory/service/impl/InventoryServiceImpl.java)
 
 #### 06rpc
-- 第九周作业	第2题（自定义RPC）	[rpc](https://github.com/SaturnStroller/java_course_202104/blob/main/05db/shardingProxyDemo)
-- 第九周作业	第6题（dubbo+hmily）	[tcc-订单](https://github.com/SaturnStroller/java_course_202104/blob/main/05db/hmily-demo/hmily-demo-tcc/hmily-demo-tcc-springcloud/hmily-demo-tcc-springcloud-order/src/main/java/org/dromara/hmily/demo/springcloud/order/service/impl/PaymentServiceImpl.java)
+- 第九周作业	第2题（自定义RPC）	[rpc](https://github.com/SaturnStroller/java_course_202104/blob/main/06rpc/rpc01/rpcfx-core/src/main/java/io/kimmking/rpcfx/client/Rpcfx.java)
+- 第九周作业	第6题（dubbo+hmily）	[dubbo](https://github.com/SaturnStroller/java_course_202104/blob/main/06rpc/himly-tcc-dubbo/transaction/src/main/resources/spring-dubbo.xml)
