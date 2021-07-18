@@ -33,7 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rpc02" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunManager" selected="Spring Boot.RpcfxServerApplication">
@@ -61,6 +61,8 @@
       <option name="presentableId" value="Default" />
       <updated>1625388819045</updated>
       <workItem from="1625388820771" duration="2286000" />
+      <workItem from="1625409923696" duration="861000" />
+      <workItem from="1625452192012" duration="22000" />
     </task>
     <servers />
   </component>
