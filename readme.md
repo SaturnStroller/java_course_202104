@@ -53,7 +53,7 @@
 
 
 #### 07redis
-- 第十一周作业	第8题（redis分布式锁，计数器）	[redis分布式锁](https://github.com/SaturnStroller/java_course_202104/blob/main/06rpc/rpc01/rpcfx-core/src/main/java/io/kimmking/rpcfx/client/Rpcfx.java)
-[redis计数器](https://github.com/SaturnStroller/java_course_202104/blob/main/06rpc/rpc01/rpcfx-core/src/main/java/io/kimmking/rpcfx/client/Rpcfx.java)
-- 第十一周作业	第9题（redis PubSub）	[redis Pub](https://github.com/SaturnStroller/java_course_202104/blob/main/06rpc/rpc01/rpcfx-core/src/main/java/io/kimmking/rpcfx/client/Rpcfx.java)
-[redis Sub](https://github.com/SaturnStroller/java_course_202104/blob/main/06rpc/rpc01/rpcfx-core/src/main/java/io/kimmking/rpcfx/client/Rpcfx.java)
+- 第十一周作业	第8题（redis分布式锁，计数器）	[redis分布式锁](https://github.com/SaturnStroller/java_course_202104/tree/main/07redis/redis/src/main/java/io/kimmking/cache/RedissionLockDemo.java)
+[redis计数器](https://github.com/SaturnStroller/java_course_202104/tree/main/07redis/redis/src/main/java/io/kimmking/cache/CounterDemo.java)
+- 第十一周作业	第9题（redis PubSub）	[redis Pub](https://github.com/SaturnStroller/java_course_202104/tree/main/07redis/redis/src/main/java/io/kimmking/cache/PubDemo.java)
+[redis Sub](https://github.com/SaturnStroller/java_course_202104/tree/main/07redis/redis/src/main/java/io/kimmking/cache/SubDemo.java)
